@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="fetch.jsp" method="post">
+	area of interest<br>
+	C<input type="checkbox" name="topic" value="c">
+	DBMS<input type="checkbox" name="topic" value="dbms">
+	OS<input type="checkbox" name="topic" value="os">
+	DS<input type="checkbox" name="topic" value="ds">
+	<input type="submit" value="get it">
+</form>
+<hr>
+<form action="router.jsp" method="post">
+	<i>choose your jsp</i>
+	<select name="choice">
+		<option>bad</option>
+		<option>good</option>
+	</select><br>
+	<i>Name</i><br>
+	<input type="text" name="name"><br>
+	<i>Age</i><br>
+	<input type="number" name="age"><br>
+	<i>Address</i><br>
+	<textarea rows="5" cols="40" name="address"
+	></textarea><br>
+	<input type="submit" value="proceed">
+</form>
+</body>
+</html>
